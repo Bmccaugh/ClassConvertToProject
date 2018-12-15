@@ -136,9 +136,9 @@ namespace PP_484
             string s = "";
 
             s = "using System; \nusing System.Collections.Generic;\n";
-            s += "using System.Linq \n";
-            s += "using System.Text; \nusing System.Threading.Tasks \n \n \n";//*/
-            s += "namespace Temporary \n{ \n \tclass";
+            s += "using System.Linq; \n";
+            s += "using System.Text; \nusing System.Threading.Tasks; \n \n \n";//*/
+            s += "namespace Temporary \n{ \n \tclass ";
             s += it.name;
             s += "\n\t{\n";
             foreach (var f in it.attributes)
